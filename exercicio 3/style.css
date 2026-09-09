@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #f3e81a;
+    color: white;
+    padding: 10px;
+}
+
+.layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+table {
+    flex: 0 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #cfc61b;
+}
+
+#visor-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+iframe {
+    border: 0;
+    background: #f0f0f0;
+    width: 900px;
+    height: 800px;
+}
